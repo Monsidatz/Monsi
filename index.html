@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+
+body {
+    background-color: Red;
+	
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    color: Black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+<div class="gallery">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</style>
+</head>
+<body>
+<center>
+
+<h1>My First Android</h1>
+<div class="gallery">
+  <a target="_blank" href="download.jpg">
+    <img src="download.jpg" alt="logo" width="250" height="150">
+  </a>
+</div>
+
+<h1> Monsi </h1>
+<p id="demo"> Click the button</p>
+
+<button class="button" onclick='document.getElementById("demo").innerHTML = "Hello World !"'>Click Me!</button>
+
+</center>
+</body>
+</html>
